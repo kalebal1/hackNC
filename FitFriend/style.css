@@ -1,3 +1,11 @@
-#btn-back:hover{
-    color: aqua;
+div.row{
+    margin-top: 30px;
+}
+
+.btn-group{
+   margin: 10px;
+}
+
+div.row.col-lg-8{
+    padding:0px;
 }

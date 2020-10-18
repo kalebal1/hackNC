@@ -8,6 +8,7 @@
 <!-- Set the page to the width of the device and set the zoon level -->
 <meta name="viewport" content="width = device-width, initial-scale = 1">
 <title>Bootstrap Tutorial</title>
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -25,7 +26,7 @@
                 <div class = "col-lg-4 col-md-2 col-sm-4">
                     <a class="btn btn-lg btn-primary" href="#" role="button">Back</a>
                 </div>
-                <div class = "col-lg-8 col-md-10 col-sm-8">
+                <div class = "col-lg-8 col-md-10 col-sm-8 text-center">
                     <h1>Settings</h1>
                 </div>
             </div>
@@ -43,12 +44,23 @@
             <div class="row">
             <h3>
                 Change unit
-                <div class = "btn-group btn-group-toggle btn-group-lg" data-toggle="buttons" role="group">
-                    <button type="unit" class = "btn btn-default btn-lg" >Imperial</button>
-                    <button type="unit" class = "btn btn-default btn-lg" autocomplete="off">Metric</button>
+                <div class = "btn-group btn-group-toggle" data-toggle="buttons" role="group">
+                    <button id="imperial_unit" type="unit" class = "btn active btn-lg" >Imperial</button>
+                    <button id="metric_unit" type="unit" class = "btn btn-lg" autocomplete="off" onclick="convertToMetric()">Metric</button>
                 </div>
                 
             </h3>
+            </div>
+            <div class="row col-lg-8">
+                <h3>Who can view my log?
+                <div class="btn-group btn-group-toggle " data-toggle="buttons" role="group">
+                    <button type="privacy" class = "btn  btn-lg">Just Me</button>
+                    <button type="privacy" class = "btn btn-lg">Anyone</button>
+                </div>
+            </h3>
+            </div>
+            <div class="row col-lg-8">
+                <h3>Delete Account</h3>
             </div>
         </div>
         
