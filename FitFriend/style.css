@@ -17,7 +17,7 @@ div.row.col-lg-8{
 }
 
 #the-rest-leaderboard{
-    background-color: aqua;
+    background-color:lightcyan;
     margin-top: 8%;
     margin-bottom: -222px;
     padding-bottom: 222px;
@@ -45,5 +45,12 @@ div.row.col-lg-8{
     max-width: 50px;
 }
 
+.table{
+    margin-top: 20px;
+}
+
+thead>tr{
+    border-radius: 5px;
+}
 
 
