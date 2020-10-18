@@ -142,6 +142,25 @@ font-family: 'Ubuntu', sans-serif;
     flex-direction: column;
     align-items: center;
 }
+.room-code-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+      }
+.room-code-block>div{
+    padding: 15px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.room-code-block>div:hover{
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    background-color: #E1BEE7;
+}
+
 .home-container>.block:hover{
     background-color: #E1BEE7;
 }
