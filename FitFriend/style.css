@@ -3,6 +3,21 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.welcome-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.welcome-main>a{
+    margin: 20px;
+}
+.welcome-main>a:hover{
+    margin: 20px;
+    color: rgb(38, 50, 56);
+    border: 1px solid white;
+
+}
 .main {
     background-color: #FFFFFF;
     width: 400px;
