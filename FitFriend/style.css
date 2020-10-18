@@ -9,6 +9,12 @@ div.row.col-lg-8{
 .leaderboard-player{
     min-width: 80%;
 }
+
+#leaderboard-heading{
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+}
 #leaderboard-heading>div>h1{
     margin-top: 20px;
     padding: 10px;
@@ -35,8 +41,11 @@ div.row.col-lg-8{
 .card-body{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    align-items: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: lightcyan;
+    border-radius: 20px;
 }
 #leader-profile{
     align-items: center;
@@ -52,5 +61,13 @@ div.row.col-lg-8{
 thead>tr{
     border-radius: 5px;
 }
+
+#back-button{
+    display:flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
 
 

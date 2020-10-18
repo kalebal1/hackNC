@@ -15,24 +15,29 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-
 </head>
 <body>
 <container>
-    <row id="leaderboard-heading">
+    <row id="leaderboard-heading" class="d-flex">
+        <div class=" col-lg-3 col-md-2 col-sm-4" id="back-button">
+            <a class="btn btn-lg btn-primary" href="#" role="button">Back</a>
+        </div>
+        
         <div class="w-50 mx-auto text-center">
             <h1>Leaderboard</h1>
         </div>
     </row>
     <row id="leaderboard-row">
         <div id="leaderboard-spacer" class="col-lg-1 col-md-1 col-sm-1"></div>
-        <div id="leader-card" class="card col col-lg-6 col-md-6 col-sm-3 text-center mx-auto" style="width: 18rem;">
+        <div id="leader-card" class="card col col-lg-7 col-md-6 col-sm-3 text-center mx-auto" style="width: 18rem;">
             <img class="leader-profile-picture" src="orangeCircle.svg" alt="Card image cap">
             <div class="card-body">
+
+                 <!-- insert script here to find/fill top player info-->
               <h5 class="card-title">Player Name</h5>
               <p class="card-text">Total Distance: </p>
               <p class="card-text">Total Time: </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              
             </div>
           </div>
         
@@ -59,14 +64,14 @@
                   <tr>
                     <th scope="row">2</th>
                     <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>5.3</td>
+                    <td>18:01</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
                     <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
+                    <td>0</td>
+                    <td>0:00</td>
                   </tr>
                 </tbody>
               </table>
@@ -80,4 +85,5 @@
  
 <!-- Use downloaded version of Bootstrap -->
 <script src="js/bootstrap.min.js"></script>
+
 </body>
