@@ -97,7 +97,11 @@ font-family: 'Ubuntu', sans-serif;
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
     
 }
-
+.block>.room-code{
+    font-size: 3em;
+    padding: 15px;
+    color: whitesmoke;
+}
 .submit {
   cursor: pointer;
     border-radius: 5em;
