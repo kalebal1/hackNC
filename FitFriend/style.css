@@ -142,11 +142,16 @@ font-family: 'Ubuntu', sans-serif;
     flex-direction: column;
     align-items: center;
 }
+
+.home-container>div{
+    margin-bottom: 20px;
+}
 .room-code-block{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10%;
       }
 .room-code-block>div{
     padding: 15px;
